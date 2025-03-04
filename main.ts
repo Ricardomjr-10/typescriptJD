@@ -23,3 +23,15 @@ list = [1, 2]
 let aluno: [string, number, boolean]
 
 aluno = ['daniel', 24, true]
+
+//obejto
+
+let objeto: object
+
+objeto = {nome: 'daniel', idade: 24}
+
+//outro jeito
+
+let objto: { nome: string; idade: number; legal: boolean}
+
+objto = {nome: 'daniel', idade: 24, legal:true}
