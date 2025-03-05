@@ -98,3 +98,23 @@ type Aluno1  = Pessoa1 & {
 
 let aluno2: Aluno
 
+// propriedades opcionais
+
+type Person = {
+    nome: string
+    idade: number
+    carro?: string // a interrogacao antes dos : indica que é opcional
+}
+
+type Alun = Person & {
+    curso: string
+    ira: number
+}
+
+let aluno3: Alun
+aluno3 = {
+    nome: "Daniel",
+    idade: 24,
+    curso: "Engenharia de Redes",
+    ira: 4.1
+}
