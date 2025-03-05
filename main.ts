@@ -35,3 +35,11 @@ objeto = {nome: 'daniel', idade: 24}
 let objto: { nome: string; idade: number; legal: boolean}
 
 objto = {nome: 'daniel', idade: 24, legal:true}
+
+//funcoes
+
+function soma(a: number,b: number): number {
+    return a + b
+}
+
+const soma2 = (a: number, b: number): number => a + b // tipa depois do parenteses
