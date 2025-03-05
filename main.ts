@@ -67,3 +67,34 @@ interface Usuario { // a mesma coisa do type acima
 } // interface pra objetos e type para tipos basicos
 
 let user1: Usuario
+
+// extendeno interfaces e tipos
+
+interface Pessoa {
+    nome: string
+    idade: number
+}
+
+interface Aluno extends Pessoa {
+    curso: string
+    ira: number
+}
+
+let aluno1: Aluno
+
+//aluno1.curso
+
+// extendendo type
+
+type Pessoa1 = {
+    nome: string
+    idade: number
+}
+
+type Aluno1  = Pessoa1 & {
+    curso: string
+    ira: number
+}
+
+let aluno2: Aluno
+
